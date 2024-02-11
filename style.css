@@ -1,0 +1,76 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'East Sea Dokdo', cursive;
+  background-image: url('/images/ttolttol.jpeg');
+
+  color: rgb(15, 245, 233);
+
+  font-size: 3vw;
+}
+
+.Container {
+  /* 화면 정가운데로 이동 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* 불투명한 화면 넣기 */
+  border: 5px solid white;
+  border-radius: 5px;
+
+  background-color: rgba(245, 245, 245, 0.3);
+  text-align: center;
+
+  padding: 10px;
+}
+
+h1 {
+  margin-bottom: 0.2px;
+  font-weight: 600;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  margin-bottom: 0.2px;
+}
+
+#user-input {
+  box-sizing: border-box;
+
+  margin: 10px 0;
+  padding: 10px;
+
+  width: 20vw;
+  height: 10vw;
+
+  background-color: pink;
+  border: none;
+
+  font-size: 5vw;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  width: 15vw;
+  height: 5vh;
+
+  background-color: yellow;
+  border: none;
+
+  margin: 8px 0;
+}
