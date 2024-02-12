@@ -80,8 +80,8 @@ function reset() {
   gameOver = false;
   playButton.disabled = false;
   chances = 5;
-  chanceArea.innerHTML = `남은 기회:${chances}`;
-  userValueList = [];
+  chanceArea.innerHTML = `남은 기회:${chances} 번 이개`;
+  history = [];
 }
 
 pickRandomNum();
